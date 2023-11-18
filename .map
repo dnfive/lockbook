@@ -1,0 +1,1233 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/local/kos32/lib/libc.a(start.o)
+                              (_crt_start)
+/usr/local/kos32/lib/libc.a(crt1.o)
+                              /usr/local/kos32/lib/libc.a(start.o) (__libc_init)
+/usr/local/kos32/lib/libc.a(tls.o)
+                              /usr/local/kos32/lib/libc.a(crt1.o) (tls_init)
+/usr/local/kos32/lib/libc.a(getreent.o)
+                              /usr/local/kos32/lib/libc.a(crt1.o) (init_reent)
+/usr/local/kos32/lib/libc.a(conio.o)
+                              /usr/local/kos32/lib/libc.a(crt1.o) (__init_conio)
+/usr/local/kos32/lib/libc.a(io.o)
+                              /usr/local/kos32/lib/libc.a(crt1.o) (init_stdio)
+/usr/local/kos32/lib/libc.a(io_alloc.o)
+                              /usr/local/kos32/lib/libc.a(io.o) (__io_alloc)
+/usr/local/kos32/lib/libc.a(memset.o)
+                              /usr/local/kos32/lib/libc.a(getreent.o) (memset)
+/usr/local/kos32/lib/libc.a(exit.o)
+                              /usr/local/kos32/lib/libc.a(crt1.o) (exit)
+/usr/local/kos32/lib/libc.a(findfp.o)
+                              /usr/local/kos32/lib/libc.a(getreent.o) (__sinit)
+/usr/local/kos32/lib/libc.a(fwalk.o)
+                              /usr/local/kos32/lib/libc.a(findfp.o) (_fwalk)
+/usr/local/kos32/lib/libc.a(printf.o)
+                              /usr/local/kos32/lib/libc.a(io.o) (printf)
+/usr/local/kos32/lib/libc.a(stdio.o)
+                              /usr/local/kos32/lib/libc.a(findfp.o) (__sread)
+/usr/local/kos32/lib/libc.a(vfprintf.o)
+                              /usr/local/kos32/lib/libc.a(printf.o) (_vfprintf_r)
+/usr/local/kos32/lib/libc.a(vfiprintf.o)
+                              /usr/local/kos32/lib/libc.a(vfprintf.o) (__sfputs_r)
+/usr/local/kos32/lib/libc.a(s_frexp.o)
+                              /usr/local/kos32/lib/libc.a(vfprintf.o) (frexp)
+/usr/local/kos32/lib/libc.a(exit.o)
+                              /usr/local/kos32/lib/libc.a(exit.o) (_exit)
+/usr/local/kos32/lib/libc.a(console.obj)
+                              /usr/local/kos32/lib/libc.a(conio.o) (load_libconsole)
+/usr/local/kos32/lib/libc.a(gthr-kos32.o)
+                              /usr/local/kos32/lib/libc.a(findfp.o) (__gthr_kos32_recursive_mutex_init_function)
+/usr/local/kos32/lib/libc.a(locale.o)
+                              /usr/local/kos32/lib/libc.a(vfprintf.o) (__locale_charset)
+/usr/local/kos32/lib/libc.a(closer.o)
+                              /usr/local/kos32/lib/libc.a(stdio.o) (_close_r)
+/usr/local/kos32/lib/libc.a(impure.o)
+                              /usr/local/kos32/lib/libc.a(exit.o) (_global_impure_ptr)
+/usr/local/kos32/lib/libc.a(lseekr.o)
+                              /usr/local/kos32/lib/libc.a(stdio.o) (_lseek_r)
+/usr/local/kos32/lib/libc.a(mutex.o)
+                              /usr/local/kos32/lib/libc.a(io_alloc.o) (__mutex_lock)
+/usr/local/kos32/lib/libc.a(readr.o)
+                              /usr/local/kos32/lib/libc.a(stdio.o) (_read_r)
+/usr/local/kos32/lib/libc.a(writer.o)
+                              /usr/local/kos32/lib/libc.a(stdio.o) (_write_r)
+/usr/local/kos32/lib/libc.a(close.o)
+                              /usr/local/kos32/lib/libc.a(closer.o) (close)
+/usr/local/kos32/lib/libc.a(errno.o)
+                              /usr/local/kos32/lib/libc.a(closer.o) (errno)
+/usr/local/kos32/lib/libc.a(lseek.o)
+                              /usr/local/kos32/lib/libc.a(lseekr.o) (lseek)
+/usr/local/kos32/lib/libc.a(read.o)
+                              /usr/local/kos32/lib/libc.a(readr.o) (read)
+/usr/local/kos32/lib/libc.a(write.o)
+                              /usr/local/kos32/lib/libc.a(writer.o) (write)
+/usr/local/kos32/lib/libc.a(memchr.o)
+                              /usr/local/kos32/lib/libc.a(vfprintf.o) (memchr)
+/usr/local/kos32/lib/libc.a(strcasecmp.o)
+                              /usr/local/kos32/lib/libc.a(locale.o) (strcasecmp)
+/usr/local/kos32/lib/libc.a(strcat.o)
+                              /usr/local/kos32/lib/libc.a(locale.o) (strcat)
+/usr/local/kos32/lib/libc.a(strchr.o)
+                              /usr/local/kos32/lib/libc.a(locale.o) (strchr)
+/usr/local/kos32/lib/libc.a(strcmp.o)
+                              /usr/local/kos32/lib/libc.a(locale.o) (strcmp)
+/usr/local/kos32/lib/libc.a(strcpy.o)
+                              /usr/local/kos32/lib/libc.a(locale.o) (strcpy)
+/usr/local/kos32/lib/libc.a(strlcpy.o)
+                              /usr/local/kos32/lib/libc.a(locale.o) (strlcpy)
+/usr/local/kos32/lib/libc.a(strlen.o)
+                              /usr/local/kos32/lib/libc.a(vfprintf.o) (strlen)
+/usr/local/kos32/lib/libc.a(strncasecmp.o)
+                              /usr/local/kos32/lib/libc.a(locale.o) (strncasecmp)
+/usr/local/kos32/lib/libc.a(strncmp.o)
+                              /usr/local/kos32/lib/libc.a(locale.o) (strncmp)
+/usr/local/kos32/lib/libc.a(strncpy.o)
+                              /usr/local/kos32/lib/libc.a(vfprintf.o) (strncpy)
+/usr/local/kos32/lib/libc.a(__call_atexit.o)
+                              /usr/local/kos32/lib/libc.a(exit.o) (__call_exitprocs)
+/usr/local/kos32/lib/libc.a(dtoa.o)
+                              /usr/local/kos32/lib/libc.a(vfprintf.o) (_dtoa_r)
+/usr/local/kos32/lib/libc.a(getenv_r.o)
+                              /usr/local/kos32/lib/libc.a(locale.o) (_getenv_r)
+/usr/local/kos32/lib/libc.a(malloc.o)
+                              /usr/local/kos32/lib/libc.a(close.o) (free)
+/usr/local/kos32/lib/libc.a(mallocr.o)
+                              /usr/local/kos32/lib/libc.a(findfp.o) (_malloc_r)
+/usr/local/kos32/lib/libc.a(mbtowc_r.o)
+                              /usr/local/kos32/lib/libc.a(locale.o) (__ascii_mbtowc)
+/usr/local/kos32/lib/libc.a(mprec.o)
+                              /usr/local/kos32/lib/libc.a(dtoa.o) (_Balloc)
+/usr/local/kos32/lib/libc.a(strtol.o)
+                              /usr/local/kos32/lib/libc.a(locale.o) (_strtol_r)
+/usr/local/kos32/lib/libc.a(wcrtomb.o)
+                              /usr/local/kos32/lib/libc.a(vfprintf.o) (_wcrtomb_r)
+/usr/local/kos32/lib/libc.a(wcsrtombs.o)
+                              /usr/local/kos32/lib/libc.a(vfprintf.o) (_wcsrtombs_r)
+/usr/local/kos32/lib/libc.a(wctomb_r.o)
+                              /usr/local/kos32/lib/libc.a(locale.o) (__ascii_wctomb)
+/usr/local/kos32/lib/libc.a(fclose.o)
+                              /usr/local/kos32/lib/libc.a(findfp.o) (_fclose_r)
+/usr/local/kos32/lib/libc.a(fflush.o)
+                              /usr/local/kos32/lib/libc.a(fclose.o) (__sflush_r)
+/usr/local/kos32/lib/libc.a(fputc.o)
+                              /usr/local/kos32/lib/libc.a(vfiprintf.o) (_fputc_r)
+/usr/local/kos32/lib/libc.a(fputwc.o)
+                              /usr/local/kos32/lib/libc.a(vfiprintf.o) (_fputwc_r)
+/usr/local/kos32/lib/libc.a(fvwrite.o)
+                              /usr/local/kos32/lib/libc.a(vfiprintf.o) (__sfvwrite_r)
+/usr/local/kos32/lib/libc.a(putc.o)
+                              /usr/local/kos32/lib/libc.a(fputc.o) (_putc_r)
+/usr/local/kos32/lib/libc.a(wbuf.o)
+                              /usr/local/kos32/lib/libc.a(fputwc.o) (__swbuf_r)
+/usr/local/kos32/lib/libc.a(wsetup.o)
+                              /usr/local/kos32/lib/libc.a(vfprintf.o) (__swsetup_r)
+/usr/local/kos32/lib/libc.a(ctype_.o)
+                              /usr/local/kos32/lib/libc.a(locale.o) (__set_ctype)
+/usr/local/kos32/lib/libc.a(errno.o)
+                              /usr/local/kos32/lib/libc.a(close.o) (__errno)
+/usr/local/kos32/lib/libc.a(finfo.o)
+                              /usr/local/kos32/lib/libc.a(lseek.o) (get_fileinfo)
+/usr/local/kos32/lib/libc.a(memcpy.o)
+                              /usr/local/kos32/lib/libc.a(dtoa.o) (memcpy)
+/usr/local/kos32/lib/libc.a(memmove.o)
+                              /usr/local/kos32/lib/libc.a(fvwrite.o) (memmove)
+/usr/local/kos32/lib/libc.a(wcsnrtombs.o)
+                              /usr/local/kos32/lib/libc.a(wcsrtombs.o) (_wcsnrtombs_r)
+/usr/local/kos32/lib/libc.a(makebuf.o)
+                              /usr/local/kos32/lib/libc.a(wsetup.o) (__smakebuf_r)
+/usr/local/kos32/lib/libc.a(fstatr.o)
+                              /usr/local/kos32/lib/libc.a(makebuf.o) (_fstat_r)
+/usr/local/kos32/lib/libc.a(isattyr.o)
+                              /usr/local/kos32/lib/libc.a(makebuf.o) (_isatty_r)
+/usr/local/kos32/lib/libc.a(fstat.o)
+                              /usr/local/kos32/lib/libc.a(fstatr.o) (fstat)
+/usr/local/kos32/lib/libc.a(isatty.o)
+                              /usr/local/kos32/lib/libc.a(isattyr.o) (isatty)
+/usr/local/kos32/lib/libc.a(mktime.o)
+                              /usr/local/kos32/lib/libc.a(fstat.o) (mktime)
+/usr/local/kos32/lib/libc.a(tzcalc_limits.o)
+                              /usr/local/kos32/lib/libc.a(mktime.o) (__tzcalc_limits)
+/usr/local/kos32/lib/libc.a(tzlock.o)
+                              /usr/local/kos32/lib/libc.a(mktime.o) (__tz_lock)
+/usr/local/kos32/lib/libc.a(tzset.o)
+                              /usr/local/kos32/lib/libc.a(mktime.o) (_tzset_unlocked)
+/usr/local/kos32/lib/libc.a(tzset_r.o)
+                              /usr/local/kos32/lib/libc.a(tzset.o) (_tzset_unlocked_r)
+/usr/local/kos32/lib/libc.a(tzvars.o)
+                              /usr/local/kos32/lib/libc.a(tzset_r.o) (_timezone)
+/usr/local/kos32/lib/libc.a(div.o)
+                              /usr/local/kos32/lib/libc.a(mktime.o) (div)
+/usr/local/kos32/lib/libc.a(strtoul.o)
+                              /usr/local/kos32/lib/libc.a(tzset_r.o) (strtoul)
+/usr/local/kos32/lib/libc.a(siscanf.o)
+                              /usr/local/kos32/lib/libc.a(tzset_r.o) (siscanf)
+/usr/local/kos32/lib/libc.a(svfiscanf.o)
+                              /usr/local/kos32/lib/libc.a(siscanf.o) (__ssvfiscanf_r)
+/usr/local/kos32/lib/libc.a(iswspace.o)
+                              /usr/local/kos32/lib/libc.a(svfiscanf.o) (iswspace)
+/usr/local/kos32/lib/libc.a(jp2uc.o)
+                              /usr/local/kos32/lib/libc.a(iswspace.o) (_jp2uc)
+/usr/local/kos32/lib/libc.a(gettzinfo.o)
+                              /usr/local/kos32/lib/libc.a(mktime.o) (__gettzinfo)
+/usr/local/kos32/lib/libc.a(month_lengths.o)
+                              /usr/local/kos32/lib/libc.a(tzcalc_limits.o) (__month_lengths)
+/usr/local/kos32/lib/libc.a(mbrtowc.o)
+                              /usr/local/kos32/lib/libc.a(svfiscanf.o) (_mbrtowc_r)
+/usr/local/kos32/lib/libc.a(strtoll_r.o)
+                              /usr/local/kos32/lib/libc.a(svfiscanf.o) (_strtoll_r)
+/usr/local/kos32/lib/libc.a(strtoull_r.o)
+                              /usr/local/kos32/lib/libc.a(svfiscanf.o) (_strtoull_r)
+/usr/local/kos32/lib/libc.a(sccl.o)
+                              /usr/local/kos32/lib/libc.a(svfiscanf.o) (__sccl)
+/usr/local/kos32/lib/libc.a(ungetc.o)
+                              /usr/local/kos32/lib/libc.a(svfiscanf.o) (__submore)
+/usr/local/kos32/sdk/lib/libgcc.a(_chkstk_ms.o)
+                              /usr/local/kos32/lib/libc.a(crt1.o) (__chkstk_ms)
+/usr/local/kos32/sdk/lib/libgcc.a(__main.o)
+                              main.o (__main)
+/usr/local/kos32/sdk/lib/libgcc.a(_ctors.o)
+                              /usr/local/kos32/sdk/lib/libgcc.a(__main.o) (__DTOR_LIST__)
+/usr/local/kos32/sdk/lib/libgcc.a(_udivdi3.o)
+                              /usr/local/kos32/lib/libc.a(vfprintf.o) (__udivdi3)
+/usr/local/kos32/sdk/lib/libgcc.a(_umoddi3.o)
+                              /usr/local/kos32/lib/libc.a(vfprintf.o) (__umoddi3)
+/usr/local/kos32/sdk/lib/libgcc.a(unwind-dw2-fde.o)
+                              /usr/local/kos32/sdk/lib/libgcc.a(__main.o) (__register_frame_info)
+/usr/local/kos32/lib/libc.a(abort.o)
+                              /usr/local/kos32/sdk/lib/libgcc.a(unwind-dw2-fde.o) (abort)
+/usr/local/kos32/lib/libc.a(atexit.o)
+                              /usr/local/kos32/sdk/lib/libgcc.a(__main.o) (atexit)
+/usr/local/kos32/lib/libc.a(signal.o)
+                              /usr/local/kos32/lib/libc.a(abort.o) (raise)
+/usr/local/kos32/lib/libc.a(__atexit.o)
+                              /usr/local/kos32/lib/libc.a(atexit.o) (__register_exitproc)
+
+Allocating common symbols
+Common symbol       size              file
+
+__DTOR_LIST__       0x8               /usr/local/kos32/sdk/lib/libgcc.a(_ctors.o)
+__gui_mode          0x4               /usr/local/kos32/lib/libc.a(conio.o)
+__appenv            0x4               /usr/local/kos32/lib/libc.a(crt1.o)
+__CTOR_LIST__       0x8               /usr/local/kos32/sdk/lib/libgcc.a(_ctors.o)
+__appenv_size       0x4               /usr/local/kos32/lib/libc.a(crt1.o)
+errno               0x4               /usr/local/kos32/lib/libc.a(errno.o)
+
+Discarded input sections
+
+ .drectve       0x0000000000000000       0x38 /usr/local/kos32/lib/libc.a(crt1.o)
+ .drectve       0x0000000000000000       0x1c /usr/local/kos32/lib/libc.a(conio.o)
+ .drectve       0x0000000000000000       0x18 /usr/local/kos32/lib/libc.a(errno.o)
+ .drectve       0x0000000000000000       0x3c /usr/local/kos32/sdk/lib/libgcc.a(_ctors.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000000000000                __image_base__ = 0x0
+                0x0000000000000000                __dll__ = 0x0
+                0x0000000000000000                ___ImageBase = 0x0
+                0x0000000000001000                __section_alignment__ = 0x1000
+                0x0000000000000200                __file_alignment__ = 0x200
+                0x0000000000000004                __major_os_version__ = 0x4
+                0x0000000000000000                __minor_os_version__ = 0x0
+                0x0000000000000001                __major_image_version__ = 0x1
+                0x0000000000000000                __minor_image_version__ = 0x0
+                0x0000000000000004                __major_subsystem_version__ = 0x4
+                0x0000000000000000                __minor_subsystem_version__ = 0x0
+                0x0000000000000001                __subsystem__ = 0x1
+                0x0000000000200000                __size_of_stack_reserve__ = 0x200000
+                0x0000000000001000                __size_of_stack_commit__ = 0x1000
+                0x0000000000100000                __size_of_heap_reserve__ = 0x100000
+                0x0000000000001000                __size_of_heap_commit__ = 0x1000
+                0x0000000000000000                __loader_flags__ = 0x0
+                0x0000000000000000                __dll_characteristics__ = 0x0
+
+.text           0x0000000000000000    0x13600
+                0x0000000000000000        0x4 LONG 0x554e454d
+                0x0000000000000004        0x4 LONG 0x32305445
+                0x0000000000000008        0x4 LONG 0x1
+                0x000000000000000c        0x4 LONG 0x28 __crt_start
+                0x0000000000000010        0x4 LONG 0x182b0 ___iend
+                0x0000000000000014        0x4 LONG 0x1cf50 ___memsize
+                0x0000000000000018        0x4 LONG 0x1cf50 ___stacktop
+                0x000000000000001c        0x4 LONG 0x1ca40 ___cmdline
+                0x0000000000000020        0x4 LONG 0x1cb40 ___pgmname
+                0x0000000000000024        0x4 LONG 0x1 __subsystem__
+ *(.init)
+ .init          0x0000000000000028       0x84 /usr/local/kos32/lib/libc.a(start.o)
+                0x0000000000000028                _crt_start
+ *(.text)
+ .text          0x00000000000000ac      0x160 main.o
+                0x0000000000000171                create_window
+                0x00000000000001c1                main
+ .text          0x000000000000020c        0x0 /usr/local/kos32/lib/libc.a(start.o)
+ *fill*         0x000000000000020c        0x4 
+ .text          0x0000000000000210      0x240 /usr/local/kos32/lib/libc.a(crt1.o)
+                0x0000000000000370                __libc_getenv
+                0x0000000000000380                __libc_init
+ .text          0x0000000000000450      0x190 /usr/local/kos32/lib/libc.a(tls.o)
+                0x0000000000000450                tls_init
+                0x00000000000004a0                tls_free
+                0x0000000000000540                tls_alloc
+ .text          0x00000000000005e0       0xd0 /usr/local/kos32/lib/libc.a(getreent.o)
+                0x00000000000005e0                init_reent
+ .text          0x00000000000006b0      0x130 /usr/local/kos32/lib/libc.a(conio.o)
+                0x0000000000000750                __init_conio
+                0x00000000000007c0                __fini_conio
+ .text          0x00000000000007e0      0x110 /usr/local/kos32/lib/libc.a(io.o)
+                0x0000000000000870                init_stdio
+ .text          0x00000000000008f0       0x58 /usr/local/kos32/lib/libc.a(io_alloc.o)
+                0x00000000000008f0                __io_alloc
+                0x0000000000000938                __io_free
+ .text          0x0000000000000948       0xbc /usr/local/kos32/lib/libc.a(memset.o)
+                0x0000000000000948                memset
+ *fill*         0x0000000000000a04        0xc 
+ .text          0x0000000000000a10       0x40 /usr/local/kos32/lib/libc.a(exit.o)
+                0x0000000000000a10                exit
+ .text          0x0000000000000a50      0x510 /usr/local/kos32/lib/libc.a(findfp.o)
+                0x0000000000000a50                _cleanup_r
+                0x0000000000000b90                __sfmoreglue
+                0x0000000000000bf0                _cleanup
+                0x0000000000000c10                __sinit
+                0x0000000000000cd0                __sfp
+                0x0000000000000e30                __sfp_lock_acquire
+                0x0000000000000e70                __sfp_lock_release
+                0x0000000000000e90                __sinit_lock_acquire
+                0x0000000000000ed0                __sinit_lock_release
+                0x0000000000000ef0                __fp_lock_all
+                0x0000000000000f30                __fp_unlock_all
+ .text          0x0000000000000f60       0xc0 /usr/local/kos32/lib/libc.a(fwalk.o)
+                0x0000000000000f60                _fwalk
+                0x0000000000000fc0                _fwalk_reent
+ .text          0x0000000000001020       0x60 /usr/local/kos32/lib/libc.a(printf.o)
+                0x0000000000001020                _printf_r
+                0x0000000000001050                printf
+ .text          0x0000000000001080      0x140 /usr/local/kos32/lib/libc.a(stdio.o)
+                0x0000000000001080                __sread
+                0x00000000000010d0                __seofread
+                0x00000000000010e0                __swrite
+                0x0000000000001150                __sseek
+                0x00000000000011a0                __sclose
+ .text          0x00000000000011c0     0x27b0 /usr/local/kos32/lib/libc.a(vfprintf.o)
+                0x00000000000011c0                _vfprintf_r
+                0x0000000000003860                vfprintf
+ .text          0x0000000000003970     0x1790 /usr/local/kos32/lib/libc.a(vfiprintf.o)
+                0x0000000000003970                __sfputs_r
+                0x0000000000003a10                __sprint_r
+                0x0000000000003b00                _vfiprintf_r
+                0x0000000000004ff0                vfiprintf
+ .text          0x0000000000005100       0xa0 /usr/local/kos32/lib/libc.a(s_frexp.o)
+                0x0000000000005100                frexp
+ .text          0x00000000000051a0       0x20 /usr/local/kos32/lib/libc.a(exit.o)
+                0x00000000000051a0                _exit
+                0x00000000000051a0                _Exit
+ .text          0x00000000000051c0      0x16c /usr/local/kos32/lib/libc.a(console.obj)
+                0x0000000000005284                load_libconsole
+                0x00000000000052ac                con_init@20
+                0x00000000000052b4                con_exit@4
+                0x00000000000052bc                con_write_string@8
+                0x00000000000052c2                con_getch2@0
+                0x00000000000052c8                con_get_flags
+                0x00000000000052c8                con_set_flags@4
+                0x00000000000052c8                con_cls
+ *fill*         0x000000000000532c        0x4 
+ .text          0x0000000000005330      0x350 /usr/local/kos32/lib/libc.a(gthr-kos32.o)
+                0x0000000000005330                __gthr_kos32_once
+                0x00000000000053a0                __gthr_kos32_key_create
+                0x00000000000053d0                __gthr_kos32_key_delete
+                0x00000000000053e0                __gthr_kos32_getspecific
+                0x0000000000005400                __gthr_kos32_setspecific
+                0x0000000000005420                __gthr_kos32_mutex_init_function
+                0x0000000000005440                __gthr_kos32_mutex_destroy
+                0x0000000000005460                __gthr_kos32_mutex_lock
+                0x00000000000054a0                __gthr_kos32_mutex_trylock
+                0x00000000000054d0                __gthr_kos32_mutex_unlock
+                0x0000000000005500                __gthr_kos32_recursive_mutex_init_function
+                0x0000000000005530                __gthr_kos32_recursive_mutex_lock
+                0x00000000000055b0                __gthr_kos32_recursive_mutex_trylock
+                0x0000000000005610                __gthr_kos32_recursive_mutex_unlock
+                0x0000000000005660                __gthr_kos32_recursive_mutex_destroy
+ .text          0x0000000000005680      0xda0 /usr/local/kos32/lib/libc.a(locale.o)
+                0x0000000000006020                _setlocale_r
+                0x0000000000006390                __locale_charset
+                0x00000000000063a0                __locale_mb_cur_max
+                0x00000000000063b0                __locale_msgcharset
+                0x00000000000063c0                __locale_cjk_lang
+                0x00000000000063d0                _localeconv_r
+                0x00000000000063e0                setlocale
+                0x0000000000006410                localeconv
+ .text          0x0000000000006420       0x40 /usr/local/kos32/lib/libc.a(closer.o)
+                0x0000000000006420                _close_r
+ .text          0x0000000000006460        0x0 /usr/local/kos32/lib/libc.a(impure.o)
+ .text          0x0000000000006460       0x50 /usr/local/kos32/lib/libc.a(lseekr.o)
+                0x0000000000006460                _lseek_r
+ .text          0x00000000000064b0       0x30 /usr/local/kos32/lib/libc.a(mutex.o)
+                0x00000000000064b0                __mutex_lock
+ .text          0x00000000000064e0       0x50 /usr/local/kos32/lib/libc.a(readr.o)
+                0x00000000000064e0                _read_r
+ .text          0x0000000000006530       0x50 /usr/local/kos32/lib/libc.a(writer.o)
+                0x0000000000006530                _write_r
+ .text          0x0000000000006580       0x60 /usr/local/kos32/lib/libc.a(close.o)
+                0x0000000000006580                close
+ .text          0x00000000000065e0        0x0 /usr/local/kos32/lib/libc.a(errno.o)
+ .text          0x00000000000065e0       0xa0 /usr/local/kos32/lib/libc.a(lseek.o)
+                0x00000000000065e0                lseek
+ .text          0x0000000000006680      0x190 /usr/local/kos32/lib/libc.a(read.o)
+                0x0000000000006680                read
+ .text          0x0000000000006810      0x2d0 /usr/local/kos32/lib/libc.a(write.o)
+                0x0000000000006880                write
+ .text          0x0000000000006ae0       0xc0 /usr/local/kos32/lib/libc.a(memchr.o)
+                0x0000000000006ae0                memchr
+ .text          0x0000000000006ba0       0x60 /usr/local/kos32/lib/libc.a(strcasecmp.o)
+                0x0000000000006ba0                strcasecmp
+ .text          0x0000000000006c00       0x60 /usr/local/kos32/lib/libc.a(strcat.o)
+                0x0000000000006c00                strcat
+ .text          0x0000000000006c60       0xe0 /usr/local/kos32/lib/libc.a(strchr.o)
+                0x0000000000006c60                strchr
+ .text          0x0000000000006d40       0x70 /usr/local/kos32/lib/libc.a(strcmp.o)
+                0x0000000000006d40                strcmp
+ .text          0x0000000000006db0       0x70 /usr/local/kos32/lib/libc.a(strcpy.o)
+                0x0000000000006db0                strcpy
+ .text          0x0000000000006e20       0x60 /usr/local/kos32/lib/libc.a(strlcpy.o)
+                0x0000000000006e20                strlcpy
+ .text          0x0000000000006e80       0x60 /usr/local/kos32/lib/libc.a(strlen.o)
+                0x0000000000006e80                strlen
+ .text          0x0000000000006ee0       0x80 /usr/local/kos32/lib/libc.a(strncasecmp.o)
+                0x0000000000006ee0                strncasecmp
+ .text          0x0000000000006f60       0xd0 /usr/local/kos32/lib/libc.a(strncmp.o)
+                0x0000000000006f60                strncmp
+ .text          0x0000000000007030       0xb0 /usr/local/kos32/lib/libc.a(strncpy.o)
+                0x0000000000007030                strncpy
+ .text          0x00000000000070e0      0x190 /usr/local/kos32/lib/libc.a(__call_atexit.o)
+                0x00000000000070e0                __call_exitprocs
+ .text          0x0000000000007270     0x1680 /usr/local/kos32/lib/libc.a(dtoa.o)
+                0x0000000000007460                _dtoa_r
+ .text          0x00000000000088f0       0x20 /usr/local/kos32/lib/libc.a(getenv_r.o)
+                0x00000000000088f0                _findenv_r
+                0x0000000000008900                _getenv_r
+ .text          0x0000000000008910       0x40 /usr/local/kos32/lib/libc.a(malloc.o)
+                0x0000000000008910                malloc
+                0x0000000000008930                free
+ .text          0x0000000000008950     0x25e0 /usr/local/kos32/lib/libc.a(mallocr.o)
+                0x0000000000008d60                user_alloc
+                0x0000000000008d80                memalign
+                0x0000000000008f80                _malloc_r
+                0x000000000000a3e0                _free_r
+                0x000000000000ac70                _calloc_r
+                0x000000000000acf0                _realloc_r
+ .text          0x000000000000af30      0x880 /usr/local/kos32/lib/libc.a(mbtowc_r.o)
+                0x000000000000af30                __ascii_mbtowc
+                0x000000000000af80                _mbtowc_r
+                0x000000000000afd0                __utf8_mbtowc
+                0x000000000000b3a0                __sjis_mbtowc
+                0x000000000000b490                __eucjp_mbtowc
+                0x000000000000b5e0                __jis_mbtowc
+ .text          0x000000000000b7b0      0xea0 /usr/local/kos32/lib/libc.a(mprec.o)
+                0x000000000000b7b0                _Balloc
+                0x000000000000b850                _Bfree
+                0x000000000000b870                __multadd
+                0x000000000000b960                __s2b
+                0x000000000000ba60                __hi0bits
+                0x000000000000bad0                __lo0bits
+                0x000000000000bb50                __i2b
+                0x000000000000bb80                __multiply
+                0x000000000000bd60                __pow5mult
+                0x000000000000be50                __lshift
+                0x000000000000bf80                __mcmp
+                0x000000000000bfd0                __mdiff
+                0x000000000000c1b0                __ulp
+                0x000000000000c240                __b2d
+                0x000000000000c360                __d2b
+                0x000000000000c480                __ratio
+                0x000000000000c540                _mprec_log10
+                0x000000000000c570                __copybits
+                0x000000000000c5e0                __any_on
+ .text          0x000000000000c650      0x200 /usr/local/kos32/lib/libc.a(strtol.o)
+                0x000000000000c650                _strtol_r
+                0x000000000000c820                strtol
+ .text          0x000000000000c850      0x140 /usr/local/kos32/lib/libc.a(wcrtomb.o)
+                0x000000000000c850                _wcrtomb_r
+                0x000000000000c8f0                wcrtomb
+ .text          0x000000000000c990       0x80 /usr/local/kos32/lib/libc.a(wcsrtombs.o)
+                0x000000000000c990                _wcsrtombs_r
+                0x000000000000c9d0                wcsrtombs
+ .text          0x000000000000ca10      0x3c0 /usr/local/kos32/lib/libc.a(wctomb_r.o)
+                0x000000000000ca10                __ascii_wctomb
+                0x000000000000ca50                _wctomb_r
+                0x000000000000ca90                __utf8_wctomb
+                0x000000000000cc00                __sjis_wctomb
+                0x000000000000cc70                __eucjp_wctomb
+                0x000000000000cd10                __jis_wctomb
+ .text          0x000000000000cdd0      0x190 /usr/local/kos32/lib/libc.a(fclose.o)
+                0x000000000000cdd0                _fclose_r
+                0x000000000000cf40                fclose
+ .text          0x000000000000cf60      0x290 /usr/local/kos32/lib/libc.a(fflush.o)
+                0x000000000000cf60                __sflush_r
+                0x000000000000d110                _fflush_r
+                0x000000000000d1b0                fflush
+ .text          0x000000000000d1f0      0x130 /usr/local/kos32/lib/libc.a(fputc.o)
+                0x000000000000d1f0                _fputc_r
+                0x000000000000d280                fputc
+ .text          0x000000000000d320      0x1d0 /usr/local/kos32/lib/libc.a(fputwc.o)
+                0x000000000000d320                __fputwc
+                0x000000000000d410                _fputwc_r
+                0x000000000000d4b0                fputwc
+ .text          0x000000000000d4f0      0x540 /usr/local/kos32/lib/libc.a(fvwrite.o)
+                0x000000000000d4f0                __sfvwrite_r
+ .text          0x000000000000da30      0x1a0 /usr/local/kos32/lib/libc.a(putc.o)
+                0x000000000000da30                _putc_r
+                0x000000000000db00                putc
+ .text          0x000000000000dbd0      0x120 /usr/local/kos32/lib/libc.a(wbuf.o)
+                0x000000000000dbd0                __swbuf_r
+                0x000000000000dcc0                __swbuf
+ .text          0x000000000000dcf0      0x130 /usr/local/kos32/lib/libc.a(wsetup.o)
+                0x000000000000dcf0                __swsetup_r
+ .text          0x000000000000de20       0x10 /usr/local/kos32/lib/libc.a(ctype_.o)
+                0x000000000000de20                __set_ctype
+ .text          0x000000000000de30       0x10 /usr/local/kos32/lib/libc.a(errno.o)
+                0x000000000000de30                __errno
+ .text          0x000000000000de40       0x30 /usr/local/kos32/lib/libc.a(finfo.o)
+                0x000000000000de40                get_fileinfo
+ .text          0x000000000000de70       0xc0 /usr/local/kos32/lib/libc.a(memcpy.o)
+                0x000000000000de70                memcpy
+ .text          0x000000000000df30       0xd8 /usr/local/kos32/lib/libc.a(memmove.o)
+                0x000000000000df30                memmove
+ *fill*         0x000000000000e008        0x8 
+ .text          0x000000000000e010      0x1d0 /usr/local/kos32/lib/libc.a(wcsnrtombs.o)
+                0x000000000000e010                _wcsnrtombs_r
+                0x000000000000e1a0                wcsnrtombs
+ .text          0x000000000000e1e0      0x160 /usr/local/kos32/lib/libc.a(makebuf.o)
+                0x000000000000e1e0                __swhatbuf_r
+                0x000000000000e270                __smakebuf_r
+ .text          0x000000000000e340       0x50 /usr/local/kos32/lib/libc.a(fstatr.o)
+                0x000000000000e340                _fstat_r
+ .text          0x000000000000e390       0x40 /usr/local/kos32/lib/libc.a(isattyr.o)
+                0x000000000000e390                _isatty_r
+ .text          0x000000000000e3d0      0x1c0 /usr/local/kos32/lib/libc.a(fstat.o)
+                0x000000000000e3d0                fstat
+ .text          0x000000000000e590       0x10 /usr/local/kos32/lib/libc.a(isatty.o)
+                0x000000000000e590                isatty
+ .text          0x000000000000e5a0      0x7e0 /usr/local/kos32/lib/libc.a(mktime.o)
+                0x000000000000e8c0                mktime
+ .text          0x000000000000ed80      0x220 /usr/local/kos32/lib/libc.a(tzcalc_limits.o)
+                0x000000000000ed80                __tzcalc_limits
+ .text          0x000000000000efa0       0x60 /usr/local/kos32/lib/libc.a(tzlock.o)
+                0x000000000000efa0                __tz_lock
+                0x000000000000efe0                __tz_unlock
+ .text          0x000000000000f000       0x40 /usr/local/kos32/lib/libc.a(tzset.o)
+                0x000000000000f000                _tzset_unlocked
+                0x000000000000f020                tzset
+ .text          0x000000000000f040      0x500 /usr/local/kos32/lib/libc.a(tzset_r.o)
+                0x000000000000f040                _tzset_unlocked_r
+                0x000000000000f520                _tzset_r
+ .text          0x000000000000f540        0x0 /usr/local/kos32/lib/libc.a(tzvars.o)
+ .text          0x000000000000f540       0x40 /usr/local/kos32/lib/libc.a(div.o)
+                0x000000000000f540                div
+ .text          0x000000000000f580      0x220 /usr/local/kos32/lib/libc.a(strtoul.o)
+                0x000000000000f580                _strtoul_r
+                0x000000000000f770                strtoul
+ .text          0x000000000000f7a0      0x120 /usr/local/kos32/lib/libc.a(siscanf.o)
+                0x000000000000f7a0                siscanf
+                0x000000000000f830                _siscanf_r
+ .text          0x000000000000f8c0     0x11f0 /usr/local/kos32/lib/libc.a(svfiscanf.o)
+                0x000000000000f8c0                _sungetc_r
+                0x000000000000f980                __ssrefill_r
+                0x000000000000f9e0                _sfread_r
+                0x000000000000fa90                __ssvfiscanf_r
+ .text          0x0000000000010ab0       0x80 /usr/local/kos32/lib/libc.a(iswspace.o)
+                0x0000000000010ab0                iswspace
+ .text          0x0000000000010b30      0x2a0 /usr/local/kos32/lib/libc.a(jp2uc.o)
+                0x0000000000010d30                _jp2uc
+ .text          0x0000000000010dd0       0x10 /usr/local/kos32/lib/libc.a(gettzinfo.o)
+                0x0000000000010dd0                __gettzinfo
+ .text          0x0000000000010de0        0x0 /usr/local/kos32/lib/libc.a(month_lengths.o)
+ .text          0x0000000000010de0      0x160 /usr/local/kos32/lib/libc.a(mbrtowc.o)
+                0x0000000000010de0                _mbrtowc_r
+                0x0000000000010e90                mbrtowc
+ .text          0x0000000000010f40      0x300 /usr/local/kos32/lib/libc.a(strtoll_r.o)
+                0x0000000000010f40                _strtoll_r
+ .text          0x0000000000011240      0x310 /usr/local/kos32/lib/libc.a(strtoull_r.o)
+                0x0000000000011240                _strtoull_r
+ .text          0x0000000000011550       0xa0 /usr/local/kos32/lib/libc.a(sccl.o)
+                0x0000000000011550                __sccl
+ .text          0x00000000000115f0      0x2d0 /usr/local/kos32/lib/libc.a(ungetc.o)
+                0x00000000000115f0                __submore
+                0x00000000000116a0                _ungetc_r
+                0x0000000000011890                ungetc
+ .text          0x00000000000118c0       0x44 /usr/local/kos32/sdk/lib/libgcc.a(_chkstk_ms.o)
+                0x00000000000118c0                __chkstk_ms
+ *fill*         0x0000000000011904        0xc 
+ .text          0x0000000000011910       0xe0 /usr/local/kos32/sdk/lib/libgcc.a(__main.o)
+                0x0000000000011910                __do_global_dtors
+                0x0000000000011960                __do_global_ctors
+                0x00000000000119d0                __main
+ .text          0x00000000000119f0        0x0 /usr/local/kos32/sdk/lib/libgcc.a(_ctors.o)
+ .text          0x00000000000119f0      0x120 /usr/local/kos32/sdk/lib/libgcc.a(_udivdi3.o)
+                0x00000000000119f0                __udivdi3
+ .text          0x0000000000011b10      0x150 /usr/local/kos32/sdk/lib/libgcc.a(_umoddi3.o)
+                0x0000000000011b10                __umoddi3
+ .text          0x0000000000011c60     0x13e0 /usr/local/kos32/sdk/lib/libgcc.a(unwind-dw2-fde.o)
+                0x0000000000012c30                __register_frame_info_bases
+                0x0000000000012c60                __register_frame_info
+                0x0000000000012c90                __register_frame
+                0x0000000000012cd0                __register_frame_info_table_bases
+                0x0000000000012d50                __register_frame_info_table
+                0x0000000000012d80                __register_frame_table
+                0x0000000000012dc0                __deregister_frame_info_bases
+                0x0000000000012eb0                __deregister_frame_info
+                0x0000000000012ec0                __deregister_frame
+                0x0000000000012ef0                _Unwind_Find_FDE
+ .text          0x0000000000013040       0x20 /usr/local/kos32/lib/libc.a(abort.o)
+                0x0000000000013040                abort
+ .text          0x0000000000013060       0x30 /usr/local/kos32/lib/libc.a(atexit.o)
+                0x0000000000013060                atexit
+ .text          0x0000000000013090      0x260 /usr/local/kos32/lib/libc.a(signal.o)
+                0x0000000000013090                _init_signal_r
+                0x00000000000130f0                _signal_r
+                0x0000000000013150                _raise_r
+                0x00000000000131d0                __sigtramp_r
+                0x0000000000013250                _kill_r
+                0x0000000000013260                raise
+                0x0000000000013280                signal
+                0x00000000000132b0                _init_signal
+                0x00000000000132d0                __sigtramp
+ .text          0x00000000000132f0      0x130 /usr/local/kos32/lib/libc.a(__atexit.o)
+                0x00000000000132f0                __register_exitproc
+ *(SORT(.text$*))
+ *(.text.*)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(crt1.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(tls.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(getreent.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(conio.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(io.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(memset.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(exit.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(findfp.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(fwalk.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(printf.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(stdio.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(vfprintf.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(vfiprintf.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(s_frexp.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(gthr-kos32.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(locale.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(closer.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(lseekr.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(mutex.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(readr.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(writer.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(close.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(lseek.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(read.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(write.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(memchr.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(strcasecmp.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(strcat.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(strchr.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(strcmp.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(strcpy.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(strlcpy.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(strlen.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(strncasecmp.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(strncmp.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(strncpy.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(__call_atexit.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(dtoa.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(getenv_r.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(malloc.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(mallocr.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(mbtowc_r.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(mprec.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(strtol.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(wcrtomb.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(wcsrtombs.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(wctomb_r.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(fclose.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(fflush.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(fputc.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(fputwc.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(fvwrite.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(putc.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(wbuf.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(wsetup.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(ctype_.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(errno.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(finfo.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(memcpy.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(memmove.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(wcsnrtombs.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(makebuf.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(fstatr.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(isattyr.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(fstat.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(isatty.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(mktime.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(tzcalc_limits.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(tzlock.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(tzset.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(tzset_r.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(div.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(strtoul.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(siscanf.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(svfiscanf.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(iswspace.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(jp2uc.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(gettzinfo.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(mbrtowc.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(strtoll_r.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(strtoull_r.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(sccl.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(ungetc.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/sdk/lib/libgcc.a(__main.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/sdk/lib/libgcc.a(_udivdi3.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/sdk/lib/libgcc.a(_umoddi3.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/sdk/lib/libgcc.a(unwind-dw2-fde.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(abort.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(atexit.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(signal.o)
+ .text.unlikely
+                0x0000000000013420        0x0 /usr/local/kos32/lib/libc.a(__atexit.o)
+ *(.glue_7t)
+ *(.glue_7)
+                0x0000000000013420                ___CTOR_LIST__ = .
+                0x0000000000013420                __CTOR_LIST__ = .
+                0x0000000000013420        0x4 LONG 0xffffffffffffffff
+ *(.ctors)
+ *(.ctor)
+ *(SORT(.ctors.*))
+                0x0000000000013424        0x4 LONG 0x0
+                0x0000000000013428                ___DTOR_LIST__ = .
+                0x0000000000013428                __DTOR_LIST__ = .
+                0x0000000000013428        0x4 LONG 0xffffffffffffffff
+ *(.dtors)
+ *(.dtor)
+ *(SORT(.dtors.*))
+                0x000000000001342c        0x4 LONG 0x0
+ *(.fini)
+ *(.gcc_exc)
+                [!provide]                        PROVIDE (etext, .)
+ *(.gcc_except_table)
+
+.rdata          0x0000000000013430     0x4810
+ *(.rdata)
+ .rdata         0x0000000000013430        0x8 main.o
+ .rdata         0x0000000000013438        0x4 /usr/local/kos32/lib/libc.a(getreent.o)
+ .rdata         0x000000000001343c       0x14 /usr/local/kos32/lib/libc.a(conio.o)
+ .rdata         0x0000000000013450       0x38 /usr/local/kos32/lib/libc.a(io.o)
+ .rdata         0x0000000000013488      0x1e0 /usr/local/kos32/lib/libc.a(vfprintf.o)
+ .rdata         0x0000000000013668      0x1b8 /usr/local/kos32/lib/libc.a(vfiprintf.o)
+ .rdata         0x0000000000013820        0x4 /usr/local/kos32/lib/libc.a(s_frexp.o)
+ .rdata         0x0000000000013824      0x1e8 /usr/local/kos32/lib/libc.a(locale.o)
+ .rdata         0x0000000000013a0c        0x8 /usr/local/kos32/lib/libc.a(impure.o)
+                0x0000000000013a0c                _global_impure_ptr
+ *fill*         0x0000000000013a14        0x4 
+ .rdata         0x0000000000013a18       0x48 /usr/local/kos32/lib/libc.a(dtoa.o)
+ .rdata         0x0000000000013a60      0x260 /usr/local/kos32/lib/libc.a(mbtowc_r.o)
+ .rdata         0x0000000000013cc0      0x180 /usr/local/kos32/lib/libc.a(mprec.o)
+                0x0000000000013ce0                __mprec_tinytens
+                0x0000000000013d20                __mprec_bigtens
+                0x0000000000013d60                __mprec_tens
+ .rdata         0x0000000000013e40      0x2a0 /usr/local/kos32/lib/libc.a(ctype_.o)
+                0x0000000000013e40                _ctype_
+ .rdata         0x00000000000140e0       0x80 /usr/local/kos32/lib/libc.a(mktime.o)
+ .rdata         0x0000000000014160       0x50 /usr/local/kos32/lib/libc.a(tzset_r.o)
+ .rdata         0x00000000000141b0        0x4 /usr/local/kos32/lib/libc.a(tzvars.o)
+ *fill*         0x00000000000141b4        0xc 
+ .rdata         0x00000000000141c0      0x380 /usr/local/kos32/lib/libc.a(svfiscanf.o)
+ .rdata         0x0000000000014540     0x3560 /usr/local/kos32/lib/libc.a(jp2uc.o)
+ .rdata         0x0000000000017aa0       0x60 /usr/local/kos32/lib/libc.a(month_lengths.o)
+                0x0000000000017aa0                __month_lengths
+ .rdata         0x0000000000017b00        0x4 /usr/local/kos32/lib/libc.a(mbrtowc.o)
+ .rdata         0x0000000000017b04       0x34 /usr/local/kos32/sdk/lib/libgcc.a(unwind-dw2-fde.o)
+ *(SORT(.rdata$*))
+ .rdata$zzz     0x0000000000017b38       0x14 main.o
+                0x0000000000017b4c                ___RUNTIME_PSEUDO_RELOC_LIST__ = .
+                0x0000000000017b4c                __RUNTIME_PSEUDO_RELOC_LIST__ = .
+ *(.rdata_runtime_pseudo_reloc)
+                0x0000000000017b4c                ___RUNTIME_PSEUDO_RELOC_LIST_END__ = .
+                0x0000000000017b4c                __RUNTIME_PSEUDO_RELOC_LIST_END__ = .
+
+.CRT            0x0000000000017b50        0x0
+                0x0000000000017b50                ___crt_xc_start__ = .
+ *(SORT(.CRT$XC*))
+                0x0000000000017b50                ___crt_xc_end__ = .
+                0x0000000000017b50                ___crt_xi_start__ = .
+ *(SORT(.CRT$XI*))
+                0x0000000000017b50                ___crt_xi_end__ = .
+                0x0000000000017b50                ___crt_xl_start__ = .
+ *(SORT(.CRT$XL*))
+                0x0000000000017b50                ___crt_xp_start__ = .
+ *(SORT(.CRT$XP*))
+                0x0000000000017b50                ___crt_xp_end__ = .
+                0x0000000000017b50                ___crt_xt_start__ = .
+ *(SORT(.CRT$XT*))
+                0x0000000000017b50                ___crt_xt_end__ = .
+
+.data           0x0000000000017b50      0x810
+                [!provide]                        PROVIDE (__data_start__, .)
+ *(.data)
+ .data          0x0000000000017b50        0x4 main.o
+ .data          0x0000000000017b54        0x0 /usr/local/kos32/lib/libc.a(start.o)
+ .data          0x0000000000017b54        0x0 /usr/local/kos32/lib/libc.a(crt1.o)
+ .data          0x0000000000017b54        0x4 /usr/local/kos32/lib/libc.a(tls.o)
+ .data          0x0000000000017b58        0x0 /usr/local/kos32/lib/libc.a(getreent.o)
+ .data          0x0000000000017b58        0x0 /usr/local/kos32/lib/libc.a(conio.o)
+ .data          0x0000000000017b58        0x0 /usr/local/kos32/lib/libc.a(io.o)
+ .data          0x0000000000017b58        0x8 /usr/local/kos32/lib/libc.a(io_alloc.o)
+ .data          0x0000000000017b60        0x0 /usr/local/kos32/lib/libc.a(memset.o)
+ .data          0x0000000000017b60        0x0 /usr/local/kos32/lib/libc.a(exit.o)
+ .data          0x0000000000017b60       0x20 /usr/local/kos32/lib/libc.a(findfp.o)
+ .data          0x0000000000017b80        0x0 /usr/local/kos32/lib/libc.a(fwalk.o)
+ .data          0x0000000000017b80        0x0 /usr/local/kos32/lib/libc.a(printf.o)
+ .data          0x0000000000017b80        0x0 /usr/local/kos32/lib/libc.a(stdio.o)
+ .data          0x0000000000017b80        0x0 /usr/local/kos32/lib/libc.a(vfprintf.o)
+ .data          0x0000000000017b80        0x0 /usr/local/kos32/lib/libc.a(vfiprintf.o)
+ .data          0x0000000000017b80        0x0 /usr/local/kos32/lib/libc.a(s_frexp.o)
+ .data          0x0000000000017b80        0x0 /usr/local/kos32/lib/libc.a(exit.o)
+ .data          0x0000000000017b80       0x96 /usr/local/kos32/lib/libc.a(console.obj)
+ *fill*         0x0000000000017c16        0x2 
+ .data          0x0000000000017c18        0x0 /usr/local/kos32/lib/libc.a(gthr-kos32.o)
+ *fill*         0x0000000000017c18        0x8 
+ .data          0x0000000000017c20      0x180 /usr/local/kos32/lib/libc.a(locale.o)
+                0x0000000000017d40                __default_locale
+                0x0000000000017d98                __mb_cur_max
+ .data          0x0000000000017da0        0x0 /usr/local/kos32/lib/libc.a(closer.o)
+ .data          0x0000000000017da0      0x480 /usr/local/kos32/lib/libc.a(impure.o)
+                0x0000000000017da0                _impure_ptr
+ .data          0x0000000000018220        0x0 /usr/local/kos32/lib/libc.a(lseekr.o)
+ .data          0x0000000000018220        0x0 /usr/local/kos32/lib/libc.a(mutex.o)
+ .data          0x0000000000018220        0x0 /usr/local/kos32/lib/libc.a(readr.o)
+ .data          0x0000000000018220        0x0 /usr/local/kos32/lib/libc.a(writer.o)
+ .data          0x0000000000018220        0x0 /usr/local/kos32/lib/libc.a(close.o)
+ .data          0x0000000000018220        0x0 /usr/local/kos32/lib/libc.a(errno.o)
+ .data          0x0000000000018220        0x0 /usr/local/kos32/lib/libc.a(lseek.o)
+ .data          0x0000000000018220        0x0 /usr/local/kos32/lib/libc.a(read.o)
+ .data          0x0000000000018220        0x0 /usr/local/kos32/lib/libc.a(write.o)
+ .data          0x0000000000018220        0x0 /usr/local/kos32/lib/libc.a(memchr.o)
+ .data          0x0000000000018220        0x0 /usr/local/kos32/lib/libc.a(strcasecmp.o)
+ .data          0x0000000000018220        0x0 /usr/local/kos32/lib/libc.a(strcat.o)
+ .data          0x0000000000018220        0x0 /usr/local/kos32/lib/libc.a(strchr.o)
+ .data          0x0000000000018220        0x0 /usr/local/kos32/lib/libc.a(strcmp.o)
+ .data          0x0000000000018220        0x0 /usr/local/kos32/lib/libc.a(strcpy.o)
+ .data          0x0000000000018220        0x0 /usr/local/kos32/lib/libc.a(strlcpy.o)
+ .data          0x0000000000018220        0x0 /usr/local/kos32/lib/libc.a(strlen.o)
+ .data          0x0000000000018220        0x0 /usr/local/kos32/lib/libc.a(strncasecmp.o)
+ .data          0x0000000000018220        0x0 /usr/local/kos32/lib/libc.a(strncmp.o)
+ .data          0x0000000000018220        0x0 /usr/local/kos32/lib/libc.a(strncpy.o)
+ .data          0x0000000000018220       0x10 /usr/local/kos32/lib/libc.a(__call_atexit.o)
+                0x0000000000018220                __atexit_lock
+ .data          0x0000000000018230        0x0 /usr/local/kos32/lib/libc.a(dtoa.o)
+ .data          0x0000000000018230        0x0 /usr/local/kos32/lib/libc.a(getenv_r.o)
+ .data          0x0000000000018230        0x0 /usr/local/kos32/lib/libc.a(malloc.o)
+ .data          0x0000000000018230       0x10 /usr/local/kos32/lib/libc.a(mallocr.o)
+ .data          0x0000000000018240        0x4 /usr/local/kos32/lib/libc.a(mbtowc_r.o)
+                0x0000000000018240                __mbtowc
+ .data          0x0000000000018244        0x0 /usr/local/kos32/lib/libc.a(mprec.o)
+ .data          0x0000000000018244        0x0 /usr/local/kos32/lib/libc.a(strtol.o)
+ .data          0x0000000000018244        0x0 /usr/local/kos32/lib/libc.a(wcrtomb.o)
+ .data          0x0000000000018244        0x0 /usr/local/kos32/lib/libc.a(wcsrtombs.o)
+ .data          0x0000000000018244        0x4 /usr/local/kos32/lib/libc.a(wctomb_r.o)
+                0x0000000000018244                __wctomb
+ .data          0x0000000000018248        0x0 /usr/local/kos32/lib/libc.a(fclose.o)
+ .data          0x0000000000018248        0x0 /usr/local/kos32/lib/libc.a(fflush.o)
+ .data          0x0000000000018248        0x0 /usr/local/kos32/lib/libc.a(fputc.o)
+ .data          0x0000000000018248        0x0 /usr/local/kos32/lib/libc.a(fputwc.o)
+ .data          0x0000000000018248        0x0 /usr/local/kos32/lib/libc.a(fvwrite.o)
+ .data          0x0000000000018248        0x0 /usr/local/kos32/lib/libc.a(putc.o)
+ .data          0x0000000000018248        0x0 /usr/local/kos32/lib/libc.a(wbuf.o)
+ .data          0x0000000000018248        0x0 /usr/local/kos32/lib/libc.a(wsetup.o)
+ .data          0x0000000000018248        0x4 /usr/local/kos32/lib/libc.a(ctype_.o)
+                0x0000000000018248                __ctype_ptr__
+ .data          0x000000000001824c        0x0 /usr/local/kos32/lib/libc.a(errno.o)
+ .data          0x000000000001824c        0x0 /usr/local/kos32/lib/libc.a(finfo.o)
+ .data          0x000000000001824c        0x0 /usr/local/kos32/lib/libc.a(memcpy.o)
+ .data          0x000000000001824c        0x0 /usr/local/kos32/lib/libc.a(memmove.o)
+ .data          0x000000000001824c        0x0 /usr/local/kos32/lib/libc.a(wcsnrtombs.o)
+ .data          0x000000000001824c        0x0 /usr/local/kos32/lib/libc.a(makebuf.o)
+ .data          0x000000000001824c        0x0 /usr/local/kos32/lib/libc.a(fstatr.o)
+ .data          0x000000000001824c        0x0 /usr/local/kos32/lib/libc.a(isattyr.o)
+ .data          0x000000000001824c        0x0 /usr/local/kos32/lib/libc.a(fstat.o)
+ .data          0x000000000001824c        0x0 /usr/local/kos32/lib/libc.a(isatty.o)
+ .data          0x000000000001824c        0x0 /usr/local/kos32/lib/libc.a(mktime.o)
+ .data          0x000000000001824c        0x0 /usr/local/kos32/lib/libc.a(tzcalc_limits.o)
+ .data          0x000000000001824c        0x8 /usr/local/kos32/lib/libc.a(tzlock.o)
+ .data          0x0000000000018254        0x0 /usr/local/kos32/lib/libc.a(tzset.o)
+ .data          0x0000000000018254        0x0 /usr/local/kos32/lib/libc.a(tzset_r.o)
+ .data          0x0000000000018254        0x8 /usr/local/kos32/lib/libc.a(tzvars.o)
+                0x0000000000018254                _tzname
+ .data          0x000000000001825c        0x0 /usr/local/kos32/lib/libc.a(div.o)
+ .data          0x000000000001825c        0x0 /usr/local/kos32/lib/libc.a(strtoul.o)
+ .data          0x000000000001825c        0x0 /usr/local/kos32/lib/libc.a(siscanf.o)
+ .data          0x000000000001825c        0x0 /usr/local/kos32/lib/libc.a(svfiscanf.o)
+ .data          0x000000000001825c        0x0 /usr/local/kos32/lib/libc.a(iswspace.o)
+ .data          0x000000000001825c        0x0 /usr/local/kos32/lib/libc.a(jp2uc.o)
+ *fill*         0x000000000001825c        0x4 
+ .data          0x0000000000018260       0x40 /usr/local/kos32/lib/libc.a(gettzinfo.o)
+ .data          0x00000000000182a0        0x0 /usr/local/kos32/lib/libc.a(month_lengths.o)
+ .data          0x00000000000182a0        0x0 /usr/local/kos32/lib/libc.a(mbrtowc.o)
+ .data          0x00000000000182a0        0x0 /usr/local/kos32/lib/libc.a(strtoll_r.o)
+ .data          0x00000000000182a0        0x0 /usr/local/kos32/lib/libc.a(strtoull_r.o)
+ .data          0x00000000000182a0        0x0 /usr/local/kos32/lib/libc.a(sccl.o)
+ .data          0x00000000000182a0        0x0 /usr/local/kos32/lib/libc.a(ungetc.o)
+ .data          0x00000000000182a0        0x0 /usr/local/kos32/sdk/lib/libgcc.a(_chkstk_ms.o)
+ .data          0x00000000000182a0        0x4 /usr/local/kos32/sdk/lib/libgcc.a(__main.o)
+ .data          0x00000000000182a4        0x0 /usr/local/kos32/sdk/lib/libgcc.a(_ctors.o)
+ .data          0x00000000000182a4        0x0 /usr/local/kos32/sdk/lib/libgcc.a(_udivdi3.o)
+ .data          0x00000000000182a4        0x0 /usr/local/kos32/sdk/lib/libgcc.a(_umoddi3.o)
+ .data          0x00000000000182a4        0x8 /usr/local/kos32/sdk/lib/libgcc.a(unwind-dw2-fde.o)
+ .data          0x00000000000182ac        0x0 /usr/local/kos32/lib/libc.a(abort.o)
+ .data          0x00000000000182ac        0x0 /usr/local/kos32/lib/libc.a(atexit.o)
+ .data          0x00000000000182ac        0x0 /usr/local/kos32/lib/libc.a(signal.o)
+ .data          0x00000000000182ac        0x0 /usr/local/kos32/lib/libc.a(__atexit.o)
+ *(.data2)
+ *(SORT(.data$*))
+ *(.jcr)
+                0x00000000000182ac                __CRT_MT = .
+                0x00000000000182ac        0x4 LONG 0x1
+                [!provide]                        PROVIDE (__data_end__, .)
+ *(.data_cygwin_nocopy)
+                0x00000000000182b0                ___iend = .
+
+.eh_frame       0x00000000000182b0     0x3c00
+                0x00000000000182b0                PROVIDE (___EH_FRAME_BEGIN__, .)
+ *(.eh_frame*)
+ .eh_frame      0x00000000000182b0      0x1a8 main.o
+ .eh_frame      0x0000000000018458       0x8c /usr/local/kos32/lib/libc.a(crt1.o)
+ .eh_frame      0x00000000000184e4       0xa0 /usr/local/kos32/lib/libc.a(tls.o)
+ .eh_frame      0x0000000000018584       0x3c /usr/local/kos32/lib/libc.a(getreent.o)
+ .eh_frame      0x00000000000185c0       0xb8 /usr/local/kos32/lib/libc.a(conio.o)
+ .eh_frame      0x0000000000018678       0x88 /usr/local/kos32/lib/libc.a(io.o)
+ .eh_frame      0x0000000000018700       0x54 /usr/local/kos32/lib/libc.a(memset.o)
+ .eh_frame      0x0000000000018754       0x34 /usr/local/kos32/lib/libc.a(exit.o)
+ .eh_frame      0x0000000000018788      0x1e8 /usr/local/kos32/lib/libc.a(findfp.o)
+ .eh_frame      0x0000000000018970       0x90 /usr/local/kos32/lib/libc.a(fwalk.o)
+ .eh_frame      0x0000000000018a00       0x48 /usr/local/kos32/lib/libc.a(printf.o)
+ .eh_frame      0x0000000000018a48       0xd4 /usr/local/kos32/lib/libc.a(stdio.o)
+ .eh_frame      0x0000000000018b1c       0xe0 /usr/local/kos32/lib/libc.a(vfprintf.o)
+ .eh_frame      0x0000000000018bfc      0x18c /usr/local/kos32/lib/libc.a(vfiprintf.o)
+ .eh_frame      0x0000000000018d88       0x3c /usr/local/kos32/lib/libc.a(s_frexp.o)
+ .eh_frame      0x0000000000018dc4      0x230 /usr/local/kos32/lib/libc.a(gthr-kos32.o)
+ .eh_frame      0x0000000000018ff4      0x200 /usr/local/kos32/lib/libc.a(locale.o)
+ .eh_frame      0x00000000000191f4       0x38 /usr/local/kos32/lib/libc.a(closer.o)
+ .eh_frame      0x000000000001922c       0x38 /usr/local/kos32/lib/libc.a(lseekr.o)
+ .eh_frame      0x0000000000019264       0x34 /usr/local/kos32/lib/libc.a(mutex.o)
+ .eh_frame      0x0000000000019298       0x38 /usr/local/kos32/lib/libc.a(readr.o)
+ .eh_frame      0x00000000000192d0       0x38 /usr/local/kos32/lib/libc.a(writer.o)
+ .eh_frame      0x0000000000019308       0x44 /usr/local/kos32/lib/libc.a(close.o)
+ .eh_frame      0x000000000001934c       0x54 /usr/local/kos32/lib/libc.a(lseek.o)
+ .eh_frame      0x00000000000193a0       0x84 /usr/local/kos32/lib/libc.a(read.o)
+ .eh_frame      0x0000000000019424       0x8c /usr/local/kos32/lib/libc.a(write.o)
+ .eh_frame      0x00000000000194b0       0x54 /usr/local/kos32/lib/libc.a(memchr.o)
+ .eh_frame      0x0000000000019504       0x64 /usr/local/kos32/lib/libc.a(strcasecmp.o)
+ .eh_frame      0x0000000000019568       0x3c /usr/local/kos32/lib/libc.a(strcat.o)
+ .eh_frame      0x00000000000195a4       0x64 /usr/local/kos32/lib/libc.a(strchr.o)
+ .eh_frame      0x0000000000019608       0x3c /usr/local/kos32/lib/libc.a(strcmp.o)
+ .eh_frame      0x0000000000019644       0x48 /usr/local/kos32/lib/libc.a(strcpy.o)
+ .eh_frame      0x000000000001968c       0x3c /usr/local/kos32/lib/libc.a(strlcpy.o)
+ .eh_frame      0x00000000000196c8       0x3c /usr/local/kos32/lib/libc.a(strlen.o)
+ .eh_frame      0x0000000000019704       0x6c /usr/local/kos32/lib/libc.a(strncasecmp.o)
+ .eh_frame      0x0000000000019770       0x54 /usr/local/kos32/lib/libc.a(strncmp.o)
+ .eh_frame      0x00000000000197c4       0x64 /usr/local/kos32/lib/libc.a(strncpy.o)
+ .eh_frame      0x0000000000019828       0x58 /usr/local/kos32/lib/libc.a(__call_atexit.o)
+ .eh_frame      0x0000000000019880       0xdc /usr/local/kos32/lib/libc.a(dtoa.o)
+ .eh_frame      0x000000000001995c       0x40 /usr/local/kos32/lib/libc.a(getenv_r.o)
+ .eh_frame      0x000000000001999c       0x48 /usr/local/kos32/lib/libc.a(malloc.o)
+ .eh_frame      0x00000000000199e4      0x234 /usr/local/kos32/lib/libc.a(mallocr.o)
+ .eh_frame      0x0000000000019c18      0x264 /usr/local/kos32/lib/libc.a(mbtowc_r.o)
+ .eh_frame      0x0000000000019e7c      0x3f8 /usr/local/kos32/lib/libc.a(mprec.o)
+ .eh_frame      0x000000000001a274       0x70 /usr/local/kos32/lib/libc.a(strtol.o)
+ .eh_frame      0x000000000001a2e4       0x98 /usr/local/kos32/lib/libc.a(wcrtomb.o)
+ .eh_frame      0x000000000001a37c       0x48 /usr/local/kos32/lib/libc.a(wcsrtombs.o)
+ .eh_frame      0x000000000001a3c4      0x160 /usr/local/kos32/lib/libc.a(wctomb_r.o)
+ .eh_frame      0x000000000001a524       0x9c /usr/local/kos32/lib/libc.a(fclose.o)
+ .eh_frame      0x000000000001a5c0       0xd8 /usr/local/kos32/lib/libc.a(fflush.o)
+ .eh_frame      0x000000000001a698       0xa8 /usr/local/kos32/lib/libc.a(fputc.o)
+ .eh_frame      0x000000000001a740       0xf8 /usr/local/kos32/lib/libc.a(fputwc.o)
+ .eh_frame      0x000000000001a838       0x70 /usr/local/kos32/lib/libc.a(fvwrite.o)
+ .eh_frame      0x000000000001a8a8       0xc8 /usr/local/kos32/lib/libc.a(putc.o)
+ .eh_frame      0x000000000001a970       0x70 /usr/local/kos32/lib/libc.a(wbuf.o)
+ .eh_frame      0x000000000001a9e0       0x3c /usr/local/kos32/lib/libc.a(wsetup.o)
+ .eh_frame      0x000000000001aa1c       0x2c /usr/local/kos32/lib/libc.a(ctype_.o)
+ .eh_frame      0x000000000001aa48       0x2c /usr/local/kos32/lib/libc.a(errno.o)
+ .eh_frame      0x000000000001aa74       0x34 /usr/local/kos32/lib/libc.a(finfo.o)
+ .eh_frame      0x000000000001aaa8       0x54 /usr/local/kos32/lib/libc.a(memcpy.o)
+ .eh_frame      0x000000000001aafc       0x64 /usr/local/kos32/lib/libc.a(memmove.o)
+ .eh_frame      0x000000000001ab60       0xb4 /usr/local/kos32/lib/libc.a(wcsnrtombs.o)
+ .eh_frame      0x000000000001ac14       0x8c /usr/local/kos32/lib/libc.a(makebuf.o)
+ .eh_frame      0x000000000001aca0       0x38 /usr/local/kos32/lib/libc.a(fstatr.o)
+ .eh_frame      0x000000000001acd8       0x38 /usr/local/kos32/lib/libc.a(isattyr.o)
+ .eh_frame      0x000000000001ad10       0x58 /usr/local/kos32/lib/libc.a(fstat.o)
+ .eh_frame      0x000000000001ad68       0x2c /usr/local/kos32/lib/libc.a(isatty.o)
+ .eh_frame      0x000000000001ad94       0x98 /usr/local/kos32/lib/libc.a(mktime.o)
+ .eh_frame      0x000000000001ae2c       0x70 /usr/local/kos32/lib/libc.a(tzcalc_limits.o)
+ .eh_frame      0x000000000001ae9c       0x50 /usr/local/kos32/lib/libc.a(tzlock.o)
+ .eh_frame      0x000000000001aeec       0x48 /usr/local/kos32/lib/libc.a(tzset.o)
+ .eh_frame      0x000000000001af34       0x90 /usr/local/kos32/lib/libc.a(tzset_r.o)
+ .eh_frame      0x000000000001afc4       0x40 /usr/local/kos32/lib/libc.a(div.o)
+ .eh_frame      0x000000000001b004       0x70 /usr/local/kos32/lib/libc.a(strtoul.o)
+ .eh_frame      0x000000000001b074       0x50 /usr/local/kos32/lib/libc.a(siscanf.o)
+ .eh_frame      0x000000000001b0c4      0x13c /usr/local/kos32/lib/libc.a(svfiscanf.o)
+ .eh_frame      0x000000000001b200       0x38 /usr/local/kos32/lib/libc.a(iswspace.o)
+ .eh_frame      0x000000000001b238       0x94 /usr/local/kos32/lib/libc.a(jp2uc.o)
+ .eh_frame      0x000000000001b2cc       0x2c /usr/local/kos32/lib/libc.a(gettzinfo.o)
+ .eh_frame      0x000000000001b2f8       0x98 /usr/local/kos32/lib/libc.a(mbrtowc.o)
+ .eh_frame      0x000000000001b390       0x58 /usr/local/kos32/lib/libc.a(strtoll_r.o)
+ .eh_frame      0x000000000001b3e8       0x58 /usr/local/kos32/lib/libc.a(strtoull_r.o)
+ .eh_frame      0x000000000001b440       0x54 /usr/local/kos32/lib/libc.a(sccl.o)
+ .eh_frame      0x000000000001b494       0xe0 /usr/local/kos32/lib/libc.a(ungetc.o)
+ .eh_frame      0x000000000001b574       0x68 /usr/local/kos32/sdk/lib/libgcc.a(__main.o)
+ .eh_frame      0x000000000001b5dc       0x9c /usr/local/kos32/sdk/lib/libgcc.a(_udivdi3.o)
+ .eh_frame      0x000000000001b678       0x9c /usr/local/kos32/sdk/lib/libgcc.a(_umoddi3.o)
+ .eh_frame      0x000000000001b714      0x4f0 /usr/local/kos32/sdk/lib/libgcc.a(unwind-dw2-fde.o)
+ .eh_frame      0x000000000001bc04       0x2c /usr/local/kos32/lib/libc.a(abort.o)
+ .eh_frame      0x000000000001bc30       0x30 /usr/local/kos32/lib/libc.a(atexit.o)
+ .eh_frame      0x000000000001bc60      0x14c /usr/local/kos32/lib/libc.a(signal.o)
+ .eh_frame      0x000000000001bdac       0x58 /usr/local/kos32/lib/libc.a(__atexit.o)
+                0x000000000001be04                ___FRAME_END__ = .
+                0x000000000001be04        0x4 LONG 0x0
+
+bss             0x000000000001be10     0x1140
+ *(.bss)
+ .bss           0x000000000001be10        0x0 main.o
+ .bss           0x000000000001be10        0x0 /usr/local/kos32/lib/libc.a(start.o)
+ .bss           0x000000000001be10        0x0 /usr/local/kos32/lib/libc.a(crt1.o)
+ *fill*         0x000000000001be10       0x10 
+ .bss           0x000000000001be20       0xa0 /usr/local/kos32/lib/libc.a(tls.o)
+ .bss           0x000000000001bec0        0x0 /usr/local/kos32/lib/libc.a(getreent.o)
+ .bss           0x000000000001bec0        0x0 /usr/local/kos32/lib/libc.a(conio.o)
+ .bss           0x000000000001bec0        0x0 /usr/local/kos32/lib/libc.a(io.o)
+ .bss           0x000000000001bec0      0x610 /usr/local/kos32/lib/libc.a(io_alloc.o)
+                0x000000000001bec0                __io_tab
+ .bss           0x000000000001c4d0        0x0 /usr/local/kos32/lib/libc.a(memset.o)
+ .bss           0x000000000001c4d0        0x0 /usr/local/kos32/lib/libc.a(exit.o)
+ .bss           0x000000000001c4d0        0x0 /usr/local/kos32/lib/libc.a(findfp.o)
+ .bss           0x000000000001c4d0        0x0 /usr/local/kos32/lib/libc.a(fwalk.o)
+ .bss           0x000000000001c4d0        0x0 /usr/local/kos32/lib/libc.a(printf.o)
+ .bss           0x000000000001c4d0        0x0 /usr/local/kos32/lib/libc.a(stdio.o)
+ .bss           0x000000000001c4d0        0x0 /usr/local/kos32/lib/libc.a(vfprintf.o)
+ .bss           0x000000000001c4d0        0x0 /usr/local/kos32/lib/libc.a(vfiprintf.o)
+ .bss           0x000000000001c4d0        0x0 /usr/local/kos32/lib/libc.a(s_frexp.o)
+ .bss           0x000000000001c4d0        0x0 /usr/local/kos32/lib/libc.a(exit.o)
+ .bss           0x000000000001c4d0        0x0 /usr/local/kos32/lib/libc.a(gthr-kos32.o)
+ *fill*         0x000000000001c4d0       0x10 
+ .bss           0x000000000001c4e0      0x2e0 /usr/local/kos32/lib/libc.a(locale.o)
+                0x000000000001c4e0                _PathLocale
+                0x000000000001c4e4                __mlocale_changed
+                0x000000000001c4e8                __nlocale_changed
+ .bss           0x000000000001c7c0        0x0 /usr/local/kos32/lib/libc.a(closer.o)
+ .bss           0x000000000001c7c0        0x0 /usr/local/kos32/lib/libc.a(impure.o)
+ .bss           0x000000000001c7c0        0x0 /usr/local/kos32/lib/libc.a(lseekr.o)
+ .bss           0x000000000001c7c0        0x0 /usr/local/kos32/lib/libc.a(mutex.o)
+ .bss           0x000000000001c7c0        0x0 /usr/local/kos32/lib/libc.a(readr.o)
+ .bss           0x000000000001c7c0        0x0 /usr/local/kos32/lib/libc.a(writer.o)
+ .bss           0x000000000001c7c0        0x0 /usr/local/kos32/lib/libc.a(close.o)
+ .bss           0x000000000001c7c0        0x0 /usr/local/kos32/lib/libc.a(errno.o)
+ .bss           0x000000000001c7c0        0x0 /usr/local/kos32/lib/libc.a(lseek.o)
+ .bss           0x000000000001c7c0        0x0 /usr/local/kos32/lib/libc.a(read.o)
+ .bss           0x000000000001c7c0        0x0 /usr/local/kos32/lib/libc.a(write.o)
+ .bss           0x000000000001c7c0        0x0 /usr/local/kos32/lib/libc.a(memchr.o)
+ .bss           0x000000000001c7c0        0x0 /usr/local/kos32/lib/libc.a(strcasecmp.o)
+ .bss           0x000000000001c7c0        0x0 /usr/local/kos32/lib/libc.a(strcat.o)
+ .bss           0x000000000001c7c0        0x0 /usr/local/kos32/lib/libc.a(strchr.o)
+ .bss           0x000000000001c7c0        0x0 /usr/local/kos32/lib/libc.a(strcmp.o)
+ .bss           0x000000000001c7c0        0x0 /usr/local/kos32/lib/libc.a(strcpy.o)
+ .bss           0x000000000001c7c0        0x0 /usr/local/kos32/lib/libc.a(strlcpy.o)
+ .bss           0x000000000001c7c0        0x0 /usr/local/kos32/lib/libc.a(strlen.o)
+ .bss           0x000000000001c7c0        0x0 /usr/local/kos32/lib/libc.a(strncasecmp.o)
+ .bss           0x000000000001c7c0        0x0 /usr/local/kos32/lib/libc.a(strncmp.o)
+ .bss           0x000000000001c7c0        0x0 /usr/local/kos32/lib/libc.a(strncpy.o)
+ .bss           0x000000000001c7c0        0x0 /usr/local/kos32/lib/libc.a(__call_atexit.o)
+ .bss           0x000000000001c7c0        0x0 /usr/local/kos32/lib/libc.a(dtoa.o)
+ .bss           0x000000000001c7c0        0x0 /usr/local/kos32/lib/libc.a(getenv_r.o)
+ .bss           0x000000000001c7c0        0x0 /usr/local/kos32/lib/libc.a(malloc.o)
+ .bss           0x000000000001c7c0      0x200 /usr/local/kos32/lib/libc.a(mallocr.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(mbtowc_r.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(mprec.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(strtol.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(wcrtomb.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(wcsrtombs.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(wctomb_r.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(fclose.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(fflush.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(fputc.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(fputwc.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(fvwrite.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(putc.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(wbuf.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(wsetup.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(ctype_.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(errno.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(finfo.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(memcpy.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(memmove.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(wcsnrtombs.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(makebuf.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(fstatr.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(isattyr.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(fstat.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(isatty.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(mktime.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(tzcalc_limits.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(tzlock.o)
+ .bss           0x000000000001c9c0        0x0 /usr/local/kos32/lib/libc.a(tzset.o)
+ .bss           0x000000000001c9c0       0x1c /usr/local/kos32/lib/libc.a(tzset_r.o)
+ .bss           0x000000000001c9dc        0x8 /usr/local/kos32/lib/libc.a(tzvars.o)
+                0x000000000001c9dc                _timezone
+                0x000000000001c9e0                _daylight
+ .bss           0x000000000001c9e4        0x0 /usr/local/kos32/lib/libc.a(div.o)
+ .bss           0x000000000001c9e4        0x0 /usr/local/kos32/lib/libc.a(strtoul.o)
+ .bss           0x000000000001c9e4        0x0 /usr/local/kos32/lib/libc.a(siscanf.o)
+ .bss           0x000000000001c9e4        0x0 /usr/local/kos32/lib/libc.a(svfiscanf.o)
+ .bss           0x000000000001c9e4        0x0 /usr/local/kos32/lib/libc.a(iswspace.o)
+ .bss           0x000000000001c9e4        0x0 /usr/local/kos32/lib/libc.a(jp2uc.o)
+ .bss           0x000000000001c9e4        0x0 /usr/local/kos32/lib/libc.a(gettzinfo.o)
+ .bss           0x000000000001c9e4        0x0 /usr/local/kos32/lib/libc.a(month_lengths.o)
+ .bss           0x000000000001c9e4        0x0 /usr/local/kos32/lib/libc.a(mbrtowc.o)
+ .bss           0x000000000001c9e4        0x0 /usr/local/kos32/lib/libc.a(strtoll_r.o)
+ .bss           0x000000000001c9e4        0x0 /usr/local/kos32/lib/libc.a(strtoull_r.o)
+ .bss           0x000000000001c9e4        0x0 /usr/local/kos32/lib/libc.a(sccl.o)
+ .bss           0x000000000001c9e4        0x0 /usr/local/kos32/lib/libc.a(ungetc.o)
+ .bss           0x000000000001c9e4        0x0 /usr/local/kos32/sdk/lib/libgcc.a(_chkstk_ms.o)
+ .bss           0x000000000001c9e4       0x20 /usr/local/kos32/sdk/lib/libgcc.a(__main.o)
+ .bss           0x000000000001ca04        0x0 /usr/local/kos32/sdk/lib/libgcc.a(_ctors.o)
+ .bss           0x000000000001ca04        0x0 /usr/local/kos32/sdk/lib/libgcc.a(_udivdi3.o)
+ .bss           0x000000000001ca04        0x0 /usr/local/kos32/sdk/lib/libgcc.a(_umoddi3.o)
+ .bss           0x000000000001ca04       0x1c /usr/local/kos32/sdk/lib/libgcc.a(unwind-dw2-fde.o)
+ .bss           0x000000000001ca20        0x0 /usr/local/kos32/lib/libc.a(abort.o)
+ .bss           0x000000000001ca20        0x0 /usr/local/kos32/lib/libc.a(atexit.o)
+ .bss           0x000000000001ca20        0x0 /usr/local/kos32/lib/libc.a(signal.o)
+ .bss           0x000000000001ca20        0x0 /usr/local/kos32/lib/libc.a(__atexit.o)
+ *(COMMON)
+ COMMON         0x000000000001ca20        0x8 /usr/local/kos32/lib/libc.a(crt1.o)
+                0x000000000001ca20                __appenv
+                0x000000000001ca24                __appenv_size
+ COMMON         0x000000000001ca28        0x4 /usr/local/kos32/lib/libc.a(conio.o)
+                0x000000000001ca28                __gui_mode
+ COMMON         0x000000000001ca2c        0x4 /usr/local/kos32/lib/libc.a(errno.o)
+                0x000000000001ca2c                errno
+ COMMON         0x000000000001ca30       0x10 /usr/local/kos32/sdk/lib/libgcc.a(_ctors.o)
+                0x000000000001ca40                . = ALIGN (0x10)
+                0x000000000001ca40                ___cmdline = .
+                0x000000000001cb40                . = (. + 0x100)
+ *fill*         0x000000000001ca40      0x100 
+                0x000000000001cb40                ___pgmname = .
+                0x000000000001cf50                . = ((. + 0x400) + 0x10)
+ *fill*         0x000000000001cb40      0x410 
+                0x000000000001cf50                ___stacktop = .
+                0x000000000001cf50                ___memsize = .
+
+/DISCARD/
+ *(.debug$S)
+ *(.debug$T)
+ *(.debug$F)
+ *(.drectve)
+ *(.note.GNU-stack)
+ *(.comment)
+ *(.eh_frame)
+ *(.debug_abbrev)
+ *(.debug_info)
+ *(.debug_line)
+ *(.debug_frame)
+ *(.debug_loc)
+ *(.debug_pubnames)
+ *(.debug_aranges)
+ *(.debug_ranges)
+LOAD main.o
+LOAD /usr/local/kos32/lib/libc.a
+LOAD /usr/local/kos32/sdk/lib/libgcc.a
+LOAD /usr/local/kos32/lib/libc.a
+OUTPUT(main pei-i386)
